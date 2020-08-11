@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Make_ChemfuelFromTwigs</defName>
+    <label>make chemfuel from twig bundles</label>
+    <description>Make a batch of chemfuel by extracting and condensing wood gas from twig bundles. Less productive than logs.</description>
+    <jobString>Refining chemfuel from twig bundles.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodTwigBundle</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodTwigBundle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Chemfuel>25</Chemfuel>
+    </products>
+	<recipeUsers>
+		<li>BiofuelRefinery</li>
+	</recipeUsers>
+  </RecipeDef>
+
+</Defs>
