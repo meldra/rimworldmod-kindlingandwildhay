@@ -33,9 +33,41 @@
 	</recipeUsers>
   </RecipeDef>
   
+   <RecipeDef>
+    <defName>Make_WoodTwigBundle</defName>
+    <label>Make twig bundle</label>
+    <description>Make a twig bundle.</description>
+    <jobString>Making a twig bundle.</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>20</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodTwig</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodTwig</li> 
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <WoodTwigBundle>1</WoodTwigBundle>
+    </products>
+	<recipeUsers>
+		<li>CraftingSpot</li>
+	</recipeUsers>
+  </RecipeDef>
+  
   <RecipeDef>
-    <defName>Make_TwigBundles_Bulk</defName>
-    <label>Make twig bundle (x10).</label>
+    <defName>Make_WoodTwigBundle_Bulk</defName>
+    <label>Make twig bundle (x10)</label>
     <description>Make 10 twig bundles at once.</description>
     <jobString>Making twigs into 10 twig bundles.</jobString>
     <effectWorking>Cook</effectWorking>
