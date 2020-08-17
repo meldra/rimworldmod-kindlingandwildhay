@@ -12,8 +12,8 @@
     <soundInteract>Wood_Drop</soundInteract>
     <soundDrop>Wood_Drop</soundDrop>
     <statBases>
-      <MarketValue>0.2</MarketValue>
-      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>10</MaxHitPoints>
       <Mass>0.1</Mass> 
       <Flammability>1</Flammability>
       <DeteriorationRate>0.6</DeteriorationRate>
@@ -41,8 +41,8 @@
     <soundInteract>Wood_Drop</soundInteract>
     <soundDrop>Wood_Drop</soundDrop>
     <statBases>
-      <MarketValue>0.2</MarketValue>
-      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.4</MarketValue>
+      <MaxHitPoints>20</MaxHitPoints>
       <Mass>0.4</Mass> 
       <Flammability>1</Flammability>
       <DeteriorationRate>0.6</DeteriorationRate>
